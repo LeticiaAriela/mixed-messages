@@ -1,1 +1,1 @@
-const vitaminC = 'immunity'
+const vitaminC = ['Vitamin C may reduce your risk of chronic disease', 'Vitamin C may help manage high blood pressure', 'Vitamin C may lower your risk of heart disease', 'Vitamin C helps prevent iron deficiency', 'Vitamin C boosts immunity', 'Vitamin C protects your memory and thinking as you age',  ]
