@@ -7,3 +7,5 @@ const complexB = ['Complex B maintains cell health', 'Complex B essential for th
 const magnesium = ['Magnesium boosts exercise performance', 'Magnesium fights depression', 'Magnesium fights type 2 diabetes', 'Magnesium can lower blood pressure', 'Magnesium has anti-inflammatory benefits', 'Magnesium helps prevent migraines', 'Magnesium reduces insulin resistance'];
 
 const manganese = ['Manganese improves bone health', 'Manganese helps reduce inflammation', 'Manganese plays a role in blood sugar regulation', 'Manganese plays a role in the metabolism od nutrients', 'Manganese improves brain function', 'Manganese contributes to good thyroid health', 'Manganese may aid wound healing by playing a role in collagen production'];
+
+const selenium = ['Selenium acts as a powerful antioxidant', 'Selenium helps prevent mental decline', 'Selenium may reduce your risk of certain cancers', 'Selenium boosts immune system', 'Selenium may help reduce asthma symptoms'];
