@@ -5,3 +5,5 @@ const vitaminC = ['Vitamin C may reduce your risk of chronic disease', 'Vitamin 
 const complexB = ['Complex B maintains cell health', 'Complex B essential for the growth of red blood cells', 'Complex B boosts energy levels', 'Complex B helps eyesight health', 'Complex B helps good digestion', 'Complex B is important for hormones and cholesterol production'];
 
 const magnesium = ['Magnesium boosts exercise performance', 'Magnesium fights depression', 'Magnesium fights type 2 diabetes', 'Magnesium can lower blood pressure', 'Magnesium has anti-inflammatory benefits', 'Magnesium helps prevent migraines', 'Magnesium reduces insulin resistance'];
+
+const manganese = ['Manganese improves bone health', 'Manganese helps reduce inflammation', 'Manganese plays a role in blood sugar regulation', 'Manganese plays a role in the metabolism od nutrients', 'Manganese improves brain function', 'Manganese contributes to good thyroid health', 'Manganese may aid wound healing by playing a role in collagen production'];
