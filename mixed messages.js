@@ -1,3 +1,5 @@
+const vitaminsMinerals = ['a', 'c', 'b', 'magnesium', 'manganese', 'selenium'];
+
 const vitaminA = ['Vitamin A protects your eyes from age-related decline', 'Vitamin A may lower your risk of certain cancers', 'Vitamin A supports a healthy immune system', 'Vitamin A reduces your risk of acne', 'Vitamin A supports bone health', 'Vitamin A promotes healthy growth and reproduction']
 
 const vitaminC = ['Vitamin C may reduce your risk of chronic disease', 'Vitamin C may help manage high blood pressure', 'Vitamin C may lower your risk of heart disease', 'Vitamin C helps prevent iron deficiency', 'Vitamin C boosts immunity', 'Vitamin C protects your memory and thinking as you age'];
@@ -11,5 +13,5 @@ const manganese = ['Manganese improves bone health', 'Manganese helps reduce inf
 const selenium = ['Selenium acts as a powerful antioxidant', 'Selenium helps prevent mental decline', 'Selenium may reduce your risk of certain cancers', 'Selenium boosts immune system', 'Selenium may help reduce asthma symptoms'];
 
 const randomMessage = () => {
-    
+
 }
