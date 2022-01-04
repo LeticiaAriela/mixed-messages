@@ -9,3 +9,7 @@ const magnesium = ['Magnesium boosts exercise performance', 'Magnesium fights de
 const manganese = ['Manganese improves bone health', 'Manganese helps reduce inflammation', 'Manganese plays a role in blood sugar regulation', 'Manganese plays a role in the metabolism od nutrients', 'Manganese improves brain function', 'Manganese contributes to good thyroid health', 'Manganese may aid wound healing by playing a role in collagen production'];
 
 const selenium = ['Selenium acts as a powerful antioxidant', 'Selenium helps prevent mental decline', 'Selenium may reduce your risk of certain cancers', 'Selenium boosts immune system', 'Selenium may help reduce asthma symptoms'];
+
+const randomMessage = () => {
+    
+}
