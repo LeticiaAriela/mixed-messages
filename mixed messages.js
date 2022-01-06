@@ -14,6 +14,6 @@ const selenium = ['Selenium acts as a powerful antioxidant', 'Selenium helps pre
 
 const randomMessage = () => {
     const randomvitMin = Math.floor(Math.random() * 6)
-    const randomMessage = Math.floor(Math.random( *))
+    const randomMessage = Math.floor(Math.random( * 5))
 
 }
