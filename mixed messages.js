@@ -15,7 +15,7 @@ const selenium = ['Selenium acts as a powerful antioxidant', 'Selenium helps pre
 
 const randomMessage = () => {
     const randomVitMin = Math.floor(Math.random() * 6);
-    const randomRecommendation = Math.floor(Math.random( * 5));
+    const randomRecommendation = Math.floor(Math.random() * 5);
     
     if (randomVitMin === 0) {
         return vitaminA[randomRecommendation]
@@ -25,11 +25,13 @@ const randomMessage = () => {
         return complexB[randomRecommendation]
     } else if (randomVitMin === 3) {
         return magnesium[randomRecommendation]
-    } else if (randomVitMin === 4){
+    } else if (randomVitMin === 4) {
         return manganese[randomRecommendation]
-    } else (randomVitMin === 5) {
+    } else (randomVitMin === 5) 
+    {
         return selenium[randomRecommendation]
-    }
+    };
 
 };
 
+console.log(randomMessage())
