@@ -12,8 +12,23 @@ const manganese = ['Manganese improves bone health', 'Manganese plays a role in 
 
 const selenium = ['Selenium acts as a powerful antioxidant', 'Selenium helps prevent mental decline', 'Selenium may reduce your risk of certain cancers', 'Selenium boosts immune system', 'Selenium may help reduce asthma symptoms'];
 
-const randomMessage = () => {
-    const randomvitMin = Math.floor(Math.random() * 6)
-    const randomMessage = Math.floor(Math.random( * 5))
 
-}
+const randomMessage = () => {
+    const randomVitMin = Math.floor(Math.random() * 6);
+    const randomMessage = Math.floor(Math.random( * 5));
+    
+    if (randomVitMin === 0) {
+        return vitaminA[randomMessage]
+    } else if (randomVitMin === 1){
+        return vitaminC[randomMessage]
+    } else if (randomVitMin === 2) {
+        return complexB[randomMessage]
+    } else if (randomVitMin === 3) {
+        return magnesium[randomMessage]
+    } else if (randomVitMin === 4){
+        return manganese[randomMessage]
+    } else (randomVitMin === 5) {
+        return selenium[randomMessage]
+    }
+
+};
