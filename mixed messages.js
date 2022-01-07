@@ -18,18 +18,18 @@ const randomMessage = () => {
     const randomRecommendation = Math.floor(Math.random() * 5);
     
     if (randomVitMin === 0) {
-        return vitaminA[randomRecommendation]
+        return `${vitaminA[randomRecommendation]}. Some Vitamin A Sources: beef, lamb and sausage liver; cod liver oil; salmon.` 
     } else if (randomVitMin === 1){
-        return vitaminC[randomRecommendation]
+        return `${vitaminC[randomRecommendation]}. Some Vitamin C Sources: chilli pepper; yellow pepper; blackcurrants; kale; broccoli. `
     } else if (randomVitMin === 2) {
-        return complexB[randomRecommendation]
+        return `${complexB[randomRecommendation]}. Some Complex B Sources: salmon; leafy greens; eggs; milk; beef. `
     } else if (randomVitMin === 3) {
-        return magnesium[randomRecommendation]
+        return `${magnesium[randomRecommendation]}. Some Magnesium Sources: dark chocolate; avocados; nuts; legumes; tofu; bananas.`
     } else if (randomVitMin === 4) {
-        return manganese[randomRecommendation]
+        return `${manganese[randomRecommendation]}. Some Manganese Sources: almonds; beans; oatmeal; brown rice; spinach; pineapple.`
     } else (randomVitMin === 5) 
     {
-        return selenium[randomRecommendation]
+        return `${selenium[randomRecommendation]}. Some Selenium Sources: brazil nuts; fish; pork; beef; turkey; chicken; mushrooms.`
     };
 
 };
