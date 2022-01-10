@@ -1,6 +1,6 @@
 # Daily Dose Of Health 
 
-A message generator program tha reminds you the importance of vitamins & minerals to your health!
+A message generator program that reminds you the importance of vitamins & minerals to your health!
 
 ### Table Of Contents
 * [Introduction](#introduction)
